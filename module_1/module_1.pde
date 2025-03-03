@@ -1,4 +1,3 @@
-
 void setup()
 {
   size(1280, 720, P3D); 
@@ -70,10 +69,10 @@ void drawSineWave()
   color cyan = color(0, 255, 255);
   fill(cyan);
   stroke(cyan);
-  float frequency = 5;
+  float frequency = 8;
   float amplitude = 25;
   
-  for (float x = -25; x <= 25; x += 0.1f)
+  for (float x = -32; x <= 32; x += 0.1f)
   {
     circle(x * frequency, (float)Math.sin(x) * amplitude, 5);
   }
