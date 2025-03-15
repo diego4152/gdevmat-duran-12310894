@@ -12,7 +12,8 @@ void setup()
   for (int i = 0; i < walkers.length; i++)
   {
     walkers[i] = new Walker();
-    walkers[i].acceleration = new PVector (-0.01, 0.1);
+    walkers[i].speed = new PVector(5, 5);
+    walkers[i].acceleration = new PVector(-0.01, 0.1);
   }
 }
 

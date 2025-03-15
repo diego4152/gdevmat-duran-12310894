@@ -2,8 +2,8 @@ public class Walker
 {
    public PVector position;
    public float scale = 50;
-   public PVector speed = new PVector(5, 5);
-   public PVector acceleration = new PVector();
+   public PVector speed = new PVector();
+   public PVector acceleration = new PVector ();
    
    public float velocityLimit = 3;
    public float r = 255, g = 255, b = 255, a = 255;
